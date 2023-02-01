@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: black;
+}
+
+p {
+    width: 600px;
+}
+.con-p {
+    text-align: center !important;
+}
+.card-img-top {
+    width: 30%;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:auto;
+    background-image: url(/images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.btn-nav {
+    margin-left: 100px;
+}
+
+.list {
+    list-style: none;
+    text-align: start;
+}
+
+.banner-h1 {
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-bottom: 20px;
+}
+.banner-p {
+    color: rgb(255, 255, 255);
+}
+
+
+.carousel-item {
+    background-image: url(/images/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.accordion-button {
+    background: rgb(230, 230, 230);
+    line-height: 30px;
+}
+.accordion {
+    background-color: rgb(255, 255, 255);
+}
+
+.form-bg {
+    background-color: rgb(243 243 243);
+}
+
+.row-cols-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.col {
+    margin-bottom: 50px;
+}
+
+.prac {
+    padding-bottom: 80px;
+}
+
+.faq {
+    padding-top: 50px;
+    padding-bottom: 80;
+}
+.sub {
+    background-color: orange;
+    padding: 15px 30px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.cont {
+    padding: 100px 0px;
+}
